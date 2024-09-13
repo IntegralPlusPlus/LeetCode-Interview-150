@@ -27,6 +27,3 @@ var productExceptSelf = function(nums) {
 
     return nums;
 };
-
-var nums = [0];//[-1,1,0,-3,3];//[1,2,3,4];
-console.log(productExceptSelf(nums));

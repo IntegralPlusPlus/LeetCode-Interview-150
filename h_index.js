@@ -25,6 +25,3 @@ var hIndex = function(citations) {
 
     return 0;
 };
-
-var citations = [0,1];//[3,0,6,1,5];
-console.log(hIndex(citations));
