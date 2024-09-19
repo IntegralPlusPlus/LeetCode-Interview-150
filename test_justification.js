@@ -24,8 +24,8 @@ var fullJustify = function(words, maxWidth) {
             }
         }
 
-        console.log(summOfWordSzs, inx);
-        console.log(line);
+        //console.log(summOfWordSzs, inx);
+        //console.log(line);
 
         if (line.length == 1) res.push(line[0] + "".padEnd(maxWidth - line[0].length, " "));
         else if (inx < words.length) {
