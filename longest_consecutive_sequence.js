@@ -23,5 +23,5 @@ var longestConsecutive = function(nums) {
     return longestStreak;
 };
 
-var nums = [100,4,200,1,3,2];
-console.log(longestConsecutive(nums));
+//var nums = [100,4,200,1,3,2];
+//console.log(longestConsecutive(nums));
